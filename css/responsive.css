@@ -1,0 +1,22 @@
+@media(max-width:768px){
+    .burger{
+      display: block;
+      color: white;
+      cursor: pointer;
+      font-size: 3rem;  
+    }
+
+    .navbar{
+        display: none;
+        flex-direction: column;
+       
+    }
+
+
+    #menu:checked ~.navbar{
+        display: flex;
+        
+    }
+
+
+}

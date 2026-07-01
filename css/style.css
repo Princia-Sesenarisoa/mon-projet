@@ -1,0 +1,51 @@
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: #04060F;
+       
+}
+
+/* barre de navigation*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background:transparent; 
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size:  2.5rem;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar a{
+    
+    color: white;
+    font-weight: 100;
+    font-size: 23px;
+    margin-left: 3.5rem;
+    text-decoration: none;
+    flex-wrap :wrap ;   
+}
+
+#menu,.burger{
+    display:none ;   
+}
+
+.burger{
+    display: none;
+}
