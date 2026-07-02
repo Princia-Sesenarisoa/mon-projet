@@ -6,7 +6,7 @@ html{
 body{
     margin: 0;
     height: 100vh;
-    background: #04060F;
+    background-image: url(../assets/images/flm-essential-strings-mobile.png);
        
 }
 
@@ -17,7 +17,8 @@ body{
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background:transparent; 
+    background: transparent;
+    backdrop-filter: blur(15px); 
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
