@@ -25,9 +25,8 @@
         max-height: 0;
         padding: 0;
         display: none;
-        /* background: transparent;
-        backdrop-filter: blur(15px); */
-        
+        background: transparent;
+        backdrop-filter: blur(15px);
         transition: 2s;
      
     }
@@ -35,7 +34,17 @@
 
     #menu:checked ~.navbar{
         display: flex;
-           
+        background: transparent;
+    }
+
+    #menu:checked ~.navbar::before{
+        top:0 ;
+        transform: rotate(45deg);
+    }
+
+    #menu:checked ~.navbar::after{
+        top:0 ;
+        transform: rotate(-45deg);
     }
 
     
