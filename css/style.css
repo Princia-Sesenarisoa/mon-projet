@@ -1,11 +1,17 @@
 *{
     padding: 0;
     margin: 0;
+    /* sans la largeur / hauteur ne s'applique qu' au contenu */
+    /* box-sizing: border-box; */
+    /* défilement animé en douceur */
+    /* scroll-behavior: smooth; */
+
 }
 
 
 html{
     font-size: 62.5%;
+    /* si le contenu dépasse du conteneur elle le coupe */
     overflow: hidden;
 }
 
@@ -13,7 +19,7 @@ body{
     margin: 0;
     height: 100vh;
     background:#000000;
-    color: white;
+    color: rgb(233, 230, 230);
     scroll-behavior: smooth;
     box-sizing: border-box;
        
@@ -37,7 +43,7 @@ body{
 
 .logo{
     font-size:  2.5rem;
-    color: white;
+    color: rgb(233, 230, 230);
     font-weight: 600;
     text-decoration: none;
 }
@@ -47,24 +53,36 @@ body{
     /* font-size: 600; */
 }
 
+.navbar{
+    position: static;
+   
+}
+
+
 .navbar a{
-    color: white;
+    /* position: fixed; */
+    /* top: 0; 
+     right: 0; */
+     width: 100%;
+    color: rgb(230, 228, 228);
     font-weight: 100;
     font-size: 20px;
     margin-left: 3.5rem;
     text-decoration: none;
-    flex-wrap :wrap ;   
+  
 }
 
 .navbar a:hover{
     color: #7c3aed ;
     border-bottom: 2px solid #7c3aed ;
-    border-radius: 20px;
-    padding: 7px;
+
 }
 
+
+
 #menu,.burger{
-    display:none ;   
+    display:none ;
+    
 }
 
 .burger{
@@ -103,7 +121,7 @@ section{
 .home-content{
     max-width: 50%;
     margin-top: 10rem;
-   
+   color: rgb(230, 228, 228);
     /* text-align: center; */
 }
 

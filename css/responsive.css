@@ -4,40 +4,82 @@
       color: white;
       cursor: pointer;
       font-size: 3rem;  
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-right: 20px;
     }
 
-    /* .header{
-         background: transparent;
+    /* .header.burger ::before{
+        position: absolute;
+        content: "burger";
+        font-family: "Matérial Icon";
+
+    } */
+    
+    .logo{
+        position: absolute;
+      top: 0;
+      left: 0;
+      margin: 10px;
+    }
+
+    /* .burger::before{
+        font-family: "Material Icons";
+    } */
+
+    /* .header .navbar{
+         background:white;
         backdrop-filter: blur(15px);
         
     } */
 
   
 
-    .navbar{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
+    .navbar {
+        /* position: fixed;
+        /* top: 100%; */
+        /* left: 0;  */
+        /* right: 0; */
+        width: 100%;
         flex-direction: column;
-        align-items: center;
-        gap:1rem;
+        padding: 30px;
+        /* align-items: center;
+        gap:1rem;  */
         max-height: 0;
-        padding: 0;
+        overflow: hidden;
+        transition: 0.25s;
+         /* max-height: 0;
+        padding: 0;  */
         display: none;
-        background: transparent;
-        backdrop-filter: blur(15px);
-        transition: 2s;
+        /* backdrop-filter: blur(24px);
+        transition: 2s; */
      
     }
+
+    .navbar .item{
+         display: block;
+         width: 100%;
+         padding: 15px;
+         border-radius: 0;
+         border-top: 0.5mm solid #7c3aed  ;
+         /* border-width: 0.5 solid #7c3aed; */
+ /* background: rgb(206, 148, 42); */
+    }
+    
 
 
     #menu:checked ~.navbar{
         display: flex;
         background: transparent;
+        max-height: 500px;
     }
 
-    #menu:checked ~.navbar::before{
+    /* #menu:checked ~.burger{
+        content: "close";
+    } */
+
+    /* #menu:checked ~.navbar::before{
         top:0 ;
         transform: rotate(45deg);
     }
@@ -45,7 +87,7 @@
     #menu:checked ~.navbar::after{
         top:0 ;
         transform: rotate(-45deg);
-    }
+    } */
 
 
     .home-content{
@@ -60,7 +102,8 @@
    img{
     top: 0;
     z-index: -1;
-     width: 70%;
+     width: 80%;
+     
      /* filter: blur(1px); */
    }
 
@@ -81,10 +124,19 @@
 }
 
 .btn-box .btn{
-    display: flex;
-    gap: 2px;
-    margin: 0;
-    align-items: flex-start ;
+    /* display: flex;
+    gap: 1px;
+
+    align-items: flex-start ; */
+     position: relative;
+    display: inline-flex;
+    /* justify-content: center; */
+    justify-content: space-between; 
+    /* align-items: center; */
+    /* width: 12rem;
+    height: 2rem; */
+/* width: 98rem;
+    height: 3rem; */
 
 }
  
