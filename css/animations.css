@@ -5,3 +5,54 @@
         overflow: hidden;
         transition: 0.25s;
     } */
+
+@keyframes homeBgText {
+  0%,10%,100%{
+    /* dégradé décaler à gauche */
+   background-position: -83rem 0; 
+  }
+
+   65%,
+   85%
+   {
+    /* dégrader stable */
+   background-position: 0 0; 
+  }
+  
+
+
+}
+
+ /*  animations clignotement du curse */
+/* @keyframes CursorText {
+  /* Le curser est invisible largeur nulle */
+  /* 0%,10%,100%{
+   width: 0;
+  } */
+
+   /* 65%,
+   78%,
+   85%
+   { */
+    /* Lélement prend sa largeur final */
+   /* width: 32%;
+   opacity: 1;
+  }
+
+  75%,
+  81%
+  {
+    opacity: 0;
+
+  } */
+
+/* } */ *
+
+/* animation glowing-border */
+/* @keyframes glowing-border {
+    from{
+        --angle :0deg ;
+    } to {
+        --angle:360deg ;
+    }
+       */
