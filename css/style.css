@@ -363,18 +363,62 @@ img:hover{
 
 }
 
-/* ::-webkit-scrollbar{
+::-webkit-scrollbar{
     width: 20px;
 
-} */
+}
 
-/* ::-webkit-scrollbar-thumb{
-    background-color: #7c3aed; */
+::-webkit-scrollbar-thumb{
+    background-color: #7c3aed;
 
-
+}
 
 
 /* 
 ::-webkit-scrollbar-track{
     background-color: #000000;
+} */
+
+
+
+/* Compétences */
+
+.projects{
+    background-color: #7c3aed;
+}
+
+.projects-box{
+    display: grid;
+    grid-template-columns: repeat(aut-fit, minmax(350px,1fr));
+    place-items: center;
+    gap: 3rem;
+    row-gap: 5rem;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #150f20;
+    border: 2px solid #7c3aed;
+    border-radius: 3rem;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px #7c3aed;
+    transition: 0.3s ease;
+
+}
+
+.project-card:hover{
+ box-shadow: 0 0 25px #7c3aed,
+            0 0 50px #7c3aed ;
+transform: scale(1.03);
+}
+
+/* .projects-card img{
+    max-width: 300px;
 } */
