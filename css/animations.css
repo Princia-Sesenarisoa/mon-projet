@@ -20,7 +20,6 @@
   }
   
 
-
 }
 
  /*  animations clignotement du curse */
@@ -46,7 +45,7 @@
 
   } */
 
-/* } */ *
+/* } */ 
 
 /* animation glowing-border */
 /* @keyframes glowing-border {
@@ -55,4 +54,58 @@
     } to {
         --angle:360deg ;
     }
-       */
+          */
+
+       @keyframes show-data{
+        50%{
+          transform: translate(-10rem);
+        }
+
+        100%{
+          transform: translateY(-7rem);
+        }
+       }
+
+       @keyframes remove-overflow{
+        to{
+          overflow: initial;
+
+        }
+       }
+
+        @keyframes remove-overflow{
+        0%{
+          transform: translateY(-7rem);
+          
+        }
+
+          50%{
+          transform: translateY(-10rem);
+          
+        }
+
+          100%{
+          transform: translateY(.5rem);
+          
+        }
+      }
+
+      
+        @keyframes remove-overflow{
+        0%{
+          overflow:initial;
+          pointer-events: none;
+          
+        }
+
+          50%{
+          /* transform: translateY(-10rem); */
+            overflow:hidden;
+          
+        }
+
+          100%{
+          transform: translateY(.5rem);
+          
+        }
+      }
