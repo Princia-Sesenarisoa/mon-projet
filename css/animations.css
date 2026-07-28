@@ -22,6 +22,18 @@
 
 }
 
+@keyframes reveal{
+  from{
+    transform: scale(0);
+    opacity: 0;
+  }
+  to{
+    transform: scale(1);
+    opacity: 1;
+  }
+
+}
+
  /*  animations clignotement du curse */
 /* @keyframes CursorText {
   /* Le curser est invisible largeur nulle */
