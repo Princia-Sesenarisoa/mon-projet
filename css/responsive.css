@@ -103,7 +103,7 @@
     /* text-align: center; */
 }
 
-    img{
+    .hero-image{
     top: 0;
     right: 0;
     z-index: 1;
@@ -266,6 +266,27 @@
     /* flex-direction: row; */
     /* text-align: left; */
     /* height: 50%; */
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img {
+  width: 71vw;
+  height:50vh ;
+  max-height: 57vh;
+  aspect-ratio: 1;
+  background: linear-gradient(145deg, #1c1a17, #161412);
+  border: 2px solid #7c3aed;
+  border-radius: 10px;
+  position: relative;
+}
+
+.about-img img{
+    width: 70vw;
+    height: auto;
 }
 
 .service-container{
