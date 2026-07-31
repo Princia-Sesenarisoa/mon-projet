@@ -155,6 +155,7 @@ section{
     min-height: 100vh;
     padding:10rem 9% 2rem ;
     font-family: 'Poppins', sans-serif;
+    background:#000;
   
 }
 
@@ -338,10 +339,17 @@ img{
 
 /*------- A PROPOS------- */
 
-/* .propos{
-    background: radial-gradient(circle at 85% 15%, rgba(124,58,237,0.12), transparent 40%) ,
-                linear-gradient(180deg,#0b0a22 0%, #070512 50%,#04060f 100%) ;
-} */
+.propos{
+
+
+      min-height: auto;
+     background: radial-gradient(circle at  30% 80%, rgba(124,58,237,0.22), transparent 50%) ,
+                radial-gradient(circle at  75% 20%, rgba(168,85,247,0.18), transparent 45%) ,
+                linear-gradient(200deg,#04060f 0%, #0a0820 50%) ;
+    padding-bottom: 7rem;
+    backdrop-filter: blur(15px);
+    font-size: 2rem;
+}
 
 .about-content {
     display: flex;
