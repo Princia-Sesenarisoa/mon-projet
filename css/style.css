@@ -329,11 +329,12 @@ img{
     position: relative;
     top: 0;
     right: 0;
-    width: 70vh;
+    width: 45vw;
     display: flex;
     justify-content: flex-end;
     align-items: top ;
     height: auto ;
+    
     
 }
 
