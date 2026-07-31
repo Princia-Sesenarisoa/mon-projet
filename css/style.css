@@ -39,7 +39,7 @@ a {
 
 /*--------- barre de navigation--------*/
 
-.header{
+header{
     position: fixed;
     top: 0;
     left: 0;
@@ -334,7 +334,7 @@ img{
     justify-content: flex-end;
     align-items: top ;
     height: auto ;
-    
+
     
 }
 
@@ -996,7 +996,7 @@ contact */
     border-radius: 10px;
     text-shadow: 0 0 10px #7c3aed;
      z-index:1;
-     overflow: hidden;
+     /* overflow: hidden; */
 }
 
 /* .footer-iconTop a::before{
